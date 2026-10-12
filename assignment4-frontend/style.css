@@ -1,0 +1,52 @@
+body {
+    background-color: #f5f7fa;
+    color: #212529;
+    font-family: Arial, sans-serif;
+}
+
+.page-header {
+    background-color: #e8f0fe;
+    padding: 45px 15px;
+}
+
+.form-section {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 24px;
+    scroll-margin-top: 85px;
+}
+
+.form-section h2 {
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+}
+
+.section-description {
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+fieldset .invalid-feedback {
+    display: block;
+}
+
+footer {
+    background-color: #212529;
+    color: #ffffff;
+}
+
+@media (max-width: 576px) {
+    .page-header {
+        padding: 30px 12px;
+    }
+
+    .form-section {
+        padding: 16px;
+    }
+
+    .form-section h2 {
+        font-size: 1.2rem;
+    }
+}
